@@ -143,7 +143,7 @@ Finding the hole is only half of it. Here is what a defender should actually do 
 
 ## 07 · What I took away
 
-In one night I went from a wiped laptop to a working Proxmox hypervisor, a Kali attack box, an isolated lab network, a vulnerable target, and root on that target two different ways. I ran the full chain: recon, find the vuln, exploit, root, post-exploitation, done both by hand and with Metasploit.
+Building on the Proxmox hypervisor I already had running, this run I stood up a Kali attack box, carved out an isolated lab network, dropped in a vulnerable target, and got root on it two different ways. I ran the full chain: recon, find the vuln, exploit, root, post-exploitation, done both by hand and with Metasploit.
 
 The by-hand version is the part that actually taught me how the backdoor works. Metasploit just automates what I already did with netcat. And the two things that slowed me down, the IDE disk quirk and my own stale session blocking port 6200, ended up being the stuff I will remember longest.
 
